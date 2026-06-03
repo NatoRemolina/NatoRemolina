@@ -38,7 +38,7 @@ Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow au
 
 ---
 
-## 🛠️ Tech Stack
+## 👩‍💻 Tech Stack
 
 **Languages**
 
