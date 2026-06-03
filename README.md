@@ -83,6 +83,7 @@ structured technical requirements, and built dashboards with **Power BI**, **Tab
 |---|---|---|
 | [Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn) | Credit-risk scorecard that classifies clients by their probability of default using deep learning | Python · TensorFlow · scikit-learn |
 | [Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-) | Hybrid destination recommender with a demand-forecasting module for the tourism sector | Python · Prophet · scikit-learn |
+| [MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview) | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep convolutional networks (ResNet / VGG). MeIA 2025 Kaggle competition | Python · Deep Learning · CNNs |
 | [RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026) | Predictive analytics over 3 years of sales & inventory data — Ridge model and interactive dashboard. SIC 2026 | Python · pandas · Power BI |
 | [Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector) | Progressive web app running COCO computer-vision inference on a phone camera, no install | JavaScript · Vercel · Roboflow |
 | [EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM) | Conversational assistant that checks water-service interruptions in Medellín | Python · Jupyter |
