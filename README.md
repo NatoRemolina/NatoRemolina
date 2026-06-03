@@ -10,7 +10,7 @@
 
 ---
 
-## 🧭 Overview
+## 🔬 Overview
 
 I work across the whole AI and data stack, but the core of what I do is building and
 shipping production AI agents. That means Python and FastAPI on the backend, with LLM
