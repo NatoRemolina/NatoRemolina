@@ -105,6 +105,9 @@ structured technical requirements, and built dashboards with **Power BI**, **Tab
 <a href="https://github.com/NatoRemolina">
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
 </a>
+<a href="https://www.kaggle.com/nator2">
+  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
+</a>
 <!-- Completa estos enlaces con tus datos y descomenta las líneas:
 <a href="https://www.linkedin.com/in/TU-USUARIO/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
