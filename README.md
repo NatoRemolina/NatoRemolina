@@ -1,38 +1,28 @@
-<!-- GitHub profile README -->
+<h1 align="center">Hi, I'm Natalia Remolina 👋</h1>
+<h3 align="center">Junior AI Engineer · Building & deploying end-to-end AI agents</h3>
+<p align="center">Physics Engineering · Universidad Nacional de Colombia</p>
+
 <p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0E7490&center=true&vCenter=true&width=600&height=70&lines=Hi%2C+I'm+Natalia+%F0%9F%91%8B;Junior+AI+Engineer" alt="Typing SVG" />
-  </a>
+  <a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:nremolina@unal.edu.co"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://github.com/NatoRemolina"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 ---
 
-## About me
+## 🚀 About Me
 
-I'm a **Junior AI Engineer** who designs and ships **end-to-end AI agents**, workflow
-automation, and data-driven solutions. As a **Physics Engineering student at Universidad
-Nacional de Colombia**, I bring a solid foundation in mathematical, logical, and
-computational thinking to everything I build.
+Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow automation, and data analysis. Physics Engineering student at **Universidad Nacional de Colombia**, with a strong foundation in mathematical, logical, and computational thinking.
 
-Day to day, I build and deploy AI agents with **Python** and **FastAPI** — from gathering
-client requirements to designing **LLM-orchestration** and **RAG** pipelines, integrating
-**REST APIs** and messaging platforms such as **Twilio** and **WhatsApp**, and automating
-workflows with **n8n** and **webhooks**. I rely on **prompt engineering** to adapt each
-agent to its business context, working under agile practices with backlog management and
-continuous delivery.
-
-Previously, as an **Analyst / Product Owner at AIMEDIC**, I led process discovery,
-structured technical requirements, and built **Power BI**, **Tableau**, and **MySQL**
-dashboards that powered data-driven decisions in a real product environment.
-
-- **Currently:** Building end-to-end AI agents — Python · FastAPI · LLM orchestration · RAG
-- **Research:** Active member of the **QUANTA Research** and **SIMG** seedbeds at UNAL — machine learning (scikit-learn), generative AI, quantum algorithms, and optimization
-- **Learning:** Advanced Data Analysis (Talento Tech — MinTIC/UdeA) · Data Analytics (Pontificia Universidad Javeriana) · Quantum Computing (full scholarship — Google Quantum AI via Frontier Tech) · MeIA 2025 · HPC Summer School (CyberColombia scholarship)
-- **Goal:** Grow as a Junior AI Engineer in teams that build, scale, and improve production AI systems
+- 🤖 I build production-grade AI agents with **Python** and **FastAPI** — owning the full lifecycle, from client requirements to **LLM orchestration** and **RAG** pipelines.
+- 🔗 I integrate REST APIs and communication platforms like **Twilio** / **WhatsApp**, and ship automated workflows with **n8n** and webhooks.
+- 🧪 Active member of the **QUANTA** and **SIMG** research groups at UNAL — machine learning, generative AI, quantum algorithms, and optimization.
+- 💼 Previously **Analyst / Product Owner at AIMEDIC** — process discovery, technical requirements, and BI dashboards driving data-driven decisions.
+- 🎯 Growing as a Junior AI Engineer in teams that build, scale, and improve production AI systems.
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Languages**
 
@@ -44,24 +34,24 @@ dashboards that powered data-driven decisions in a real product environment.
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Prophet](https://img.shields.io/badge/Prophet-1877F2?style=flat&logo=meta&logoColor=white)
-![LLM Orchestration](https://img.shields.io/badge/LLM_Orchestration-412991?style=flat)
-![RAG](https://img.shields.io/badge/RAG-6E40C9?style=flat)
-![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-10A37F?style=flat)
+![Prophet](https://img.shields.io/badge/Prophet-1F77B4?style=flat)
+![LLM Orchestration](https://img.shields.io/badge/LLM%20Orchestration-6E40C9?style=flat)
+![RAG](https://img.shields.io/badge/RAG-10A37F?style=flat)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=flat)
 
 **Backend & Automation**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat)
-![Webhooks](https://img.shields.io/badge/Webhooks-1A1A1A?style=flat)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat)
+![Webhooks](https://img.shields.io/badge/Webhooks-3B82F6?style=flat&logo=webhooks&logoColor=white)
 
 **Data & Visualization**
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
@@ -69,7 +59,6 @@ dashboards that powered data-driven decisions in a real product environment.
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat&logo=elevenlabs&logoColor=white)
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
@@ -77,55 +66,42 @@ dashboards that powered data-driven decisions in a real product environment.
 
 ---
 
-## Featured Projects
+## 📂 Featured Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| [Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn) | Credit-risk scorecard that classifies clients by their probability of default using deep learning | Python · TensorFlow · scikit-learn |
-| [Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-) | Hybrid destination recommender with a demand-forecasting module for the tourism sector | Python · Prophet · scikit-learn |
-| [MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview) | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep convolutional networks (ResNet / VGG). MeIA 2025 Kaggle competition | Python · Deep Learning · CNNs |
-| [RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026) | Predictive analytics over 3 years of sales & inventory data — Ridge model and interactive dashboard. SIC 2026 | Python · pandas · Power BI |
-| [Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector) | Progressive web app running COCO computer-vision inference on a phone camera, no install | JavaScript · Vercel · Roboflow |
-| [EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM) | Conversational assistant that checks water-service interruptions in Medellín | Python · Jupyter |
-| [OOP — UNAL](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos) | Object-oriented programming coursework at Universidad Nacional de Colombia | Python |
+| Project | What it does | Stack |
+|---------|--------------|-------|
+| **[Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn)** | Credit-risk scorecard that classifies clients by their probability of default using deep learning. <!-- add accuracy / AUC --> | `Python` · `TensorFlow` · `scikit-learn` |
+| **[MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview)** | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep CNNs (ResNet / VGG). Kaggle competition. <!-- add ranking / score --> | `Python` · `Deep Learning` · `CNNs` |
+| **[RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)** | Predictive analytics over 3 years of sales & inventory data — Ridge model + interactive dashboard. SIC 2026. <!-- add % improvement / key insight --> | `Python` · `pandas` · `Power BI` |
+| **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** | Conversational assistant that checks water-service interruptions in Medellín. | `Python` · `Jupyter` |
 
----
+### More Projects
 
-## Achievements
-
-- 🏆 **Student Volunteer — IEEE Quantum Week 2026 (QCE26), Toronto, Canada**
-- 🏆 **Create X — Cohort 3**
-- 🏆 **Scholarship — The Coding School's *Introduction to Quantum Computing***
-- 🏆 **Scholarship — Advanced Data Analysis Diploma (TalentoTech)**
-- 🏆 **AI Macro-training — MeIA 2025**
-- 🏆 **Scholarship (CyberColombia) — 8th Colombian HPC Summer School**
+- **[Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector)** — Progressive web app running COCO computer-vision inference on a phone camera, no install. `JavaScript` · `Vercel` · `Roboflow`
+- **[Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-)** — Hybrid destination recommender with a demand-forecasting module for the tourism sector. `Python` · `Prophet` · `scikit-learn`
+- **[OOP — UNAL](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)** — Object-oriented programming coursework at Universidad Nacional de Colombia. `Python`
 
 ---
 
-## GitHub Stats
+## 🏆 Achievements
+
+- 🌐 **Student Volunteer** — IEEE Quantum Week 2026 (QCE26), Toronto, Canada
+- 🚀 **Georgia Tech CREATE-X — Medellín, Cohort 3** — Completed the Enterprise Innovation Institute's entrepreneurship & innovation capacity-building program (Aug–Oct 2024).
+- 🎓 **Scholarship** — Introduction to Quantum Computing (The Coding School / Google Quantum AI via Frontier Tech)
+- 🎓 **Scholarship** — Advanced Data Analysis Diploma (TalentoTech — MinTIC / UdeA)
+- 🧠 **AI Macro-training** — MeIA 2025
+- 🎓 **Scholarship (CyberColombia)** — 8th Colombian HPC Summer School
+
+---
+
+## 🎯 Goal
+
+> Grow as a **Junior AI Engineer** in teams that **build, scale, and improve production AI systems.**
+
+---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NatoRemolina&show_icons=true&hide_border=true&hide_title=true" alt="GitHub stats" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatoRemolina&layout=compact&hide_border=true" alt="Top languages" height="150">
+  <a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/">LinkedIn</a> ·
+  <a href="mailto:nremolina@unal.edu.co">Email</a> ·
+  <a href="https://github.com/NatoRemolina">GitHub</a>
 </p>
-
----
-
-## Contact
-
-<a href="https://github.com/NatoRemolina">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.kaggle.com/nator2">
-  <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:nremolina@unal.edu.co">
-  <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/>
-</a>
-
----
-
-<p align="center"><i>Building and scaling AI systems in production.</i></p>
