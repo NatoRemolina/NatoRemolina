@@ -26,7 +26,7 @@ comes together.
 
 ---
 
-## 🚀 About Me
+## 👩‍🔬 About Me
 
 Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow automation, and data analysis. Physics Engineering student at **Universidad Nacional de Colombia**, with a strong foundation in mathematical, logical, and computational thinking.
 
