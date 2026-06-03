@@ -93,6 +93,7 @@ structured technical requirements, and built dashboards with **Power BI**, **Tab
 
 ## Achievements
 
+- 🏆 **Student Volunteer — IEEE Quantum Week 2026 (QCE26), Toronto, Canada**
 - 🏆 **Create X — Cohort 3**
 - 🏆 **Scholarship — The Coding School's *Introduction to Quantum Computing***
 - 🏆 **Scholarship — Advanced Data Analysis Diploma (TalentoTech)**
