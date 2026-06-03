@@ -108,14 +108,12 @@ structured technical requirements, and built dashboards with **Power BI**, **Tab
 <a href="https://www.kaggle.com/nator2">
   <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white"/>
 </a>
-<!-- Completa estos enlaces con tus datos y descomenta las líneas:
-<a href="https://www.linkedin.com/in/TU-USUARIO/">
+<a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white"/>
 </a>
-<a href="mailto:TU-CORREO@unal.edu.co">
+<a href="mailto:nremolina@unal.edu.co">
   <img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white"/>
 </a>
--->
 
 ---
 
