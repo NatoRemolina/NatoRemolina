@@ -36,6 +36,12 @@ Scorecard de **riesgo crediticio** que clasifica clientes según su probabilidad
 incumplimiento, usando técnicas de **aprendizaje profundo**.
 `Python` · `Jupyter` · *Proyecto en equipo (Team5RNABI)*
 
+### 🧭 [Recomendador turístico + series temporales](https://github.com/Team5RNABI/timeseries-vision-recommender-)
+Sistema de **recomendación de destinos turísticos** con enfoque híbrido y un módulo de
+**predicción de demanda** (Facebook **Prophet**) para optimizar la personalización y la
+planificación en el sector turístico.
+`Python` · `Jupyter` · `Prophet` · *Proyecto en equipo (Team5RNABI)*
+
 ### 📊 [RetailMind — Analítica predictiva (SIC2026)](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)
 De 3 años de datos de ventas e inventario a **5 decisiones accionables**: forecast de
 demanda, rotación y churn. Modelo **Ridge** validado + dashboard interactivo.
