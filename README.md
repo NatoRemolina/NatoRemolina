@@ -1,23 +1,18 @@
-<h1 align="center">¡Hola! Soy Natalia Remolina 👋</h1>
+# Natalia Remolina Rodríguez
 
-<p align="center">
-  <em>Ciencia de datos · Machine Learning · Inteligencia Artificial</em><br>
-  Estudiante de la Universidad Nacional de Colombia 🇨🇴
-</p>
+**Ciencia de datos · Machine Learning · Inteligencia Artificial**
+Estudiante de Ingeniería — Universidad Nacional de Colombia
 
 ---
 
-## 🧠 Sobre mí
+## Perfil
 
-Me apasiona convertir datos en decisiones. Trabajo con análisis predictivo, machine
-learning, deep learning y visión por computadora — desde la limpieza de datos hasta
-modelos validados y dashboards accionables.
+Trabajo en proyectos de análisis de datos y aprendizaje automático, abarcando el ciclo
+completo: limpieza y preparación de datos, análisis exploratorio, modelado predictivo y
+comunicación de resultados mediante visualizaciones y dashboards. Mi interés se centra en
+construir soluciones que traduzcan datos en decisiones de negocio accionables.
 
-- 🔭 Construyendo proyectos de ciencia de datos e IA, paso a paso.
-- 🌱 Aprendiendo y profundizando en deep learning y MLOps.
-- 💬 Pregúntame sobre Python, análisis de datos y modelos predictivos.
-
-## 🛠️ Stack
+## Tecnologías
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
@@ -29,54 +24,54 @@ modelos validados y dashboards accionables.
 
 ---
 
-## 🚀 Proyectos destacados
+## Proyectos
 
-### 🏦 [Credit Risk — ML & Redes Neuronales](https://github.com/Team5RNABI/credit-risk-ml-nn)
-Scorecard de **riesgo crediticio** que clasifica clientes según su probabilidad de
-incumplimiento, usando técnicas de **aprendizaje profundo**.
-`Python` · `Jupyter` · *Proyecto en equipo (Team5RNABI)*
+**[Credit Risk — Machine Learning y Redes Neuronales](https://github.com/Team5RNABI/credit-risk-ml-nn)**
+Scorecard de riesgo crediticio que clasifica clientes según su probabilidad de
+incumplimiento mediante técnicas de aprendizaje profundo.
+*Python · Jupyter · Proyecto en equipo.*
 
-### 🧭 [Recomendador turístico + series temporales](https://github.com/Team5RNABI/timeseries-vision-recommender-)
-Sistema de **recomendación de destinos turísticos** con enfoque híbrido y un módulo de
-**predicción de demanda** (Facebook **Prophet**) para optimizar la personalización y la
-planificación en el sector turístico.
-`Python` · `Jupyter` · `Prophet` · *Proyecto en equipo (Team5RNABI)*
+**[Recomendador turístico con predicción de demanda](https://github.com/Team5RNABI/timeseries-vision-recommender-)**
+Sistema de recomendación de destinos turísticos con enfoque híbrido y un módulo de
+predicción de demanda basado en Facebook Prophet para apoyar la planificación del sector.
+*Python · Jupyter · Prophet · Proyecto en equipo.*
 
-### 📊 [RetailMind — Analítica predictiva (SIC2026)](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)
-De 3 años de datos de ventas e inventario a **5 decisiones accionables**: forecast de
-demanda, rotación y churn. Modelo **Ridge** validado + dashboard interactivo.
-`Python` · `pandas` · `Power BI` · *Hackathon Samsung Innovation Campus 2026 (Dataholics)*
+**[RetailMind — Analítica predictiva](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)**
+A partir de tres años de datos de ventas e inventario, anticipa la demanda y orienta cinco
+decisiones de negocio (forecast, rotación y churn) con un modelo Ridge validado y un
+dashboard interactivo. Hackathon Samsung Innovation Campus 2026.
+*Python · pandas · Power BI.*
 
-### 🎥 [Roboflow Detector — Detección de objetos en tiempo real](https://github.com/NatoRemolina/roboflow-detector)
-PWA que convierte cualquier móvil en un sistema de **visión por computadora**: inferencia
-COCO (80 clases) sobre el video de la cámara, sin instalar nada.
-`JavaScript` · `HTML` · `Vercel` · `Roboflow`
+**[Detección de objetos en tiempo real](https://github.com/NatoRemolina/roboflow-detector)**
+Aplicación web progresiva que ejecuta inferencia de visión por computadora (modelo COCO,
+80 clases) sobre el video de la cámara de un dispositivo móvil, sin instalación.
+*JavaScript · HTML · Vercel · Roboflow.*
 
-### 🤖 [Agente EPM — Asistente conversacional](https://github.com/NatoRemolina/Leader-Agentic-EPM-by-Lambda-Analytics)
-Asistente de **IA conversacional** para atención al cliente de EPM, capaz de verificar
-interrupciones de agua en Medellín.
-`Python` · `Jupyter` · `Agentic AI`
+**[Agente conversacional EPM](https://github.com/NatoRemolina/Agente-Conversacional-EPM)**
+Asistente conversacional de atención al cliente para EPM, capaz de verificar interrupciones
+del servicio de agua en la ciudad de Medellín.
+*Python · Jupyter.*
 
-### 🎓 [Programación Orientada a Objetos — UNAL](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)
-Ejercicios y actividades del curso de POO de la Universidad Nacional de Colombia.
-`Python`
+**[Programación Orientada a Objetos — UNAL](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)**
+Ejercicios y actividades del curso de Programación Orientada a Objetos de la Universidad
+Nacional de Colombia.
+*Python.*
 
 ---
 
-## 📈 Estadísticas
+## Estadísticas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NatoRemolina&show_icons=true&hide_border=true" alt="GitHub stats" height="160">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatoRemolina&layout=compact&hide_border=true" alt="Top languages" height="160">
+  <img src="https://github-readme-stats.vercel.app/api?username=NatoRemolina&show_icons=true&hide_border=true&hide_title=true" alt="Estadísticas de GitHub" height="150">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NatoRemolina&layout=compact&hide_border=true" alt="Lenguajes más usados" height="150">
 </p>
 
 ---
 
-## 📫 Contacto
+## Contacto
 
-- 💻 GitHub: [@NatoRemolina](https://github.com/NatoRemolina)
-<!-- Edita estas líneas con tus datos cuando quieras: -->
-<!-- - 💼 LinkedIn: https://linkedin.com/in/tu-usuario -->
-<!-- - 📧 Email: tu-correo@ejemplo.com -->
-
-<p align="center"><em>Construyendo, subiendo de a poco. 🌱</em></p>
+- GitHub: [@NatoRemolina](https://github.com/NatoRemolina)
+<!-- Completa con tus datos cuando lo desees:
+- LinkedIn: https://linkedin.com/in/tu-usuario
+- Email: tu-correo@ejemplo.com
+-->
