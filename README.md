@@ -9,21 +9,21 @@
 
 ## About me
 
-I'm a **Junior AI Engineer** with experience designing and implementing AI agents,
-workflow automation, and data analysis. I'm a **Physics Engineering student at Universidad
-Nacional de Colombia**, with a strong foundation in mathematical, logical, and
-computational thinking.
+I'm a **Junior AI Engineer** who designs and ships **end-to-end AI agents**, workflow
+automation, and data-driven solutions. As a **Physics Engineering student at Universidad
+Nacional de Colombia**, I bring a solid foundation in mathematical, logical, and
+computational thinking to everything I build.
 
-I currently build and deploy **end-to-end AI agents** using **Python** and **FastAPI** —
-from gathering client requirements to designing orchestration pipelines with **LLM
-orchestration** and **RAG**, integrating **REST APIs** and communication platforms such as
-**Twilio** and **WhatsApp**, and shipping automated workflows with **n8n** and **webhooks**.
-I apply **prompt engineering** to tailor each agent to its business context, working under
-agile methodologies with backlog management and continuous delivery.
+Day to day, I build and deploy AI agents with **Python** and **FastAPI** — from gathering
+client requirements to designing **LLM-orchestration** and **RAG** pipelines, integrating
+**REST APIs** and messaging platforms such as **Twilio** and **WhatsApp**, and automating
+workflows with **n8n** and **webhooks**. I rely on **prompt engineering** to adapt each
+agent to its business context, working under agile practices with backlog management and
+continuous delivery.
 
 Previously, as an **Analyst / Product Owner at AIMEDIC**, I led process discovery,
-structured technical requirements, and built dashboards with **Power BI**, **Tableau**, and
-**MySQL** to drive data-driven decisions in a real product environment.
+structured technical requirements, and built **Power BI**, **Tableau**, and **MySQL**
+dashboards that powered data-driven decisions in a real product environment.
 
 - **Currently:** Building end-to-end AI agents — Python · FastAPI · LLM orchestration · RAG
 - **Research:** Active member of the **QUANTA Research** and **SIMG** seedbeds at UNAL — machine learning (scikit-learn), generative AI, quantum algorithms, and optimization
