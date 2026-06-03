@@ -90,7 +90,7 @@ Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow au
 - 🎓 **Scholarship** — Introduction to Quantum Computing (The Coding School / Google Quantum AI via Frontier Tech)
 - 🎓 **Scholarship** — Advanced Data Analysis Diploma (TalentoTech — MinTIC / UdeA)
 - 🧠 **AI Macro-training** — MeIA 2025
-- 🎓 **Scholarship (CyberColombia)** — 8th Colombian HPC Summer School
+- 🎓 **[Scholarship (CyberColombia)](https://www.cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardeesrtir)** — 8th Colombian HPC Summer School
 
 ---
 
