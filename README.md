@@ -10,6 +10,20 @@
 
 ---
 
+## 🧭 Overview
+
+I work across the full AI and data stack — from **building and deploying production AI
+agents** (Python · FastAPI · LLM orchestration · RAG · n8n) to **machine learning and deep
+learning** (credit-risk neural networks, CNN image classification), **predictive analytics
+and time series** (sales forecasting with Ridge, demand forecasting with Prophet),
+**computer vision** (real-time object detection), and **conversational AI** (customer-service
+assistants). In parallel, I do **research in machine learning and quantum computing** with
+the QUANTA and SIMG groups at Universidad Nacional de Colombia, and I'll join **IEEE Quantum
+Week 2026** as a student volunteer. The projects and achievements below reflect this
+end-to-end work.
+
+---
+
 ## 🚀 About Me
 
 Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow automation, and data analysis. Physics Engineering student at **Universidad Nacional de Colombia**, with a strong foundation in mathematical, logical, and computational thinking.
