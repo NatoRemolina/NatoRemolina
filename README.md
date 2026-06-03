@@ -91,6 +91,17 @@ structured technical requirements, and built dashboards with **Power BI**, **Tab
 
 ---
 
+## Achievements
+
+- 🏆 **Create X — Cohort 3**
+- 🏆 **Scholarship — The Coding School's *Introduction to Quantum Computing***
+- 🏆 **Youth Representative — OSIGD Guarantees Roundtable**
+- 🏆 **Scholarship — Advanced Data Analysis Diploma (TalentoTech)**
+- 🏆 **AI Macro-training — MeIA 2025**
+- 🏆 **Scholarship (CyberColombia) — 8th Colombian HPC Summer School**
+
+---
+
 ## GitHub Stats
 
 <p align="center">
