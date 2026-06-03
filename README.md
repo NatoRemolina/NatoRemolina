@@ -12,15 +12,17 @@
 
 ## 🧭 Overview
 
-I work across the full AI and data stack — from **building and deploying production AI
-agents** (Python · FastAPI · LLM orchestration · RAG · n8n) to **machine learning and deep
-learning** (credit-risk neural networks, CNN image classification), **predictive analytics
-and time series** (sales forecasting with Ridge, demand forecasting with Prophet),
-**computer vision** (real-time object detection), and **conversational AI** (customer-service
-assistants). In parallel, I do **research in machine learning and quantum computing** with
-the QUANTA and SIMG groups at Universidad Nacional de Colombia, and I'll join **IEEE Quantum
-Week 2026** as a student volunteer. The projects and achievements below reflect this
-end-to-end work.
+I work across the whole AI and data stack, but the core of what I do is building and
+shipping production AI agents. That means Python and FastAPI on the backend, with LLM
+orchestration, RAG, and n8n holding the pipelines together. The rest of my projects branch
+out from there: neural networks for credit-risk scoring, CNNs that classify images, sales
+and demand forecasting with Ridge and Prophet, real-time object detection, and conversational
+assistants for customer service.
+
+Alongside the engineering, I research machine learning and quantum computing with the QUANTA
+and SIMG groups at Universidad Nacional de Colombia, and this year I'm joining IEEE Quantum
+Week 2026 as a student volunteer. The projects and achievements below are where all of this
+comes together.
 
 ---
 
