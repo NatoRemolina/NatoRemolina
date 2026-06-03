@@ -1,7 +1,7 @@
 <!-- GitHub profile README -->
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0E7490&center=true&vCenter=true&width=600&height=70&lines=Hi%2C+I'm+Natalia+%F0%9F%91%8B" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0E7490&center=true&vCenter=true&width=600&height=70&lines=Hi%2C+I'm+Natalia+%F0%9F%91%8B;Junior+AI+Engineer" alt="Typing SVG" />
   </a>
 </p>
 
@@ -9,14 +9,26 @@
 
 ## About me
 
-I'm a student at **Universidad Nacional de Colombia**, focused on **data science** and
-**machine learning**. I build end-to-end data solutions — from data cleaning and
-exploratory analysis to predictive modeling and interactive dashboards — with the goal of
-turning data into actionable business decisions.
+I'm a **Junior AI Engineer** with experience designing and implementing AI agents,
+workflow automation, and data analysis. I'm a **Physics Engineering student at Universidad
+Nacional de Colombia**, with a strong foundation in mathematical, logical, and
+computational thinking.
 
-- **Focus:** Predictive analytics · Machine learning · Deep learning
-- **Applied:** Computer vision · Conversational AI agents · Demand forecasting
-- **Currently:** Building data science projects and growing my portfolio
+I currently build and deploy **end-to-end AI agents** using **Python** and **FastAPI** —
+from gathering client requirements to designing orchestration pipelines with **LLM
+orchestration** and **RAG**, integrating **REST APIs** and communication platforms such as
+**Twilio** and **WhatsApp**, and shipping automated workflows with **n8n** and **webhooks**.
+I apply **prompt engineering** to tailor each agent to its business context, working under
+agile methodologies with backlog management and continuous delivery.
+
+Previously, as an **Analyst / Product Owner at AIMEDIC**, I led process discovery,
+structured technical requirements, and built dashboards with **Power BI**, **Tableau**, and
+**MySQL** to drive data-driven decisions in a real product environment.
+
+- **Currently:** Building end-to-end AI agents — Python · FastAPI · LLM orchestration · RAG
+- **Research:** Active member of the **QUANTA Research** and **SIMG** seedbeds at UNAL — machine learning (scikit-learn), generative AI, quantum algorithms, and optimization
+- **Learning:** Advanced Data Analysis (Talento Tech — MinTIC/UdeA) · Data Analytics (Pontificia Universidad Javeriana) · Quantum Computing (full scholarship — Google Quantum AI via Frontier Tech) · MeIA 2025 · HPC Summer School (CyberColombia scholarship)
+- **Goal:** Grow as a Junior AI Engineer in teams that build, scale, and improve production AI systems
 
 ---
 
@@ -26,19 +38,31 @@ turning data into actionable business decisions.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
-**Machine Learning & AI**
+**AI / ML**
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
 ![Prophet](https://img.shields.io/badge/Prophet-1877F2?style=flat&logo=meta&logoColor=white)
+![LLM Orchestration](https://img.shields.io/badge/LLM_Orchestration-412991?style=flat)
+![RAG](https://img.shields.io/badge/RAG-6E40C9?style=flat)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-10A37F?style=flat)
+
+**Backend & Automation**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white)
+![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=flat)
+![Webhooks](https://img.shields.io/badge/Webhooks-1A1A1A?style=flat)
 
 **Data & Visualization**
 
 ![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat&logo=powerbi&logoColor=black)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 
 **Tools**
@@ -87,4 +111,4 @@ turning data into actionable business decisions.
 
 ---
 
-<p align="center"><i>Turning data into decisions.</i></p>
+<p align="center"><i>Building and scaling AI systems in production.</i></p>
