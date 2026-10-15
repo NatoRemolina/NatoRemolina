@@ -86,16 +86,25 @@ Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow au
 
 | Project | What it does | Stack |
 |---------|--------------|-------|
-| **[Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn)** | Credit-risk scorecard that classifies clients by their probability of default using deep learning. <!-- add accuracy / AUC --> | `Python` · `TensorFlow` · `scikit-learn` |
-| **[MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview)** | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep CNNs (ResNet / VGG). Kaggle competition. <!-- add ranking / score --> | `Python` · `Deep Learning` · `CNNs` |
-| **[RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)** | Predictive analytics over 3 years of sales & inventory data — Ridge model + interactive dashboard. SIC 2026. <!-- add % improvement / key insight --> | `Python` · `pandas` · `Power BI` |
+| **[VALAI — Post-Op Voice Agent](https://github.com/NatoRemolina/postop-voice-agent)** | Spanish-speaking voice agent that calls post-surgery patients, grounds every clinical answer in real guidelines with source and page citations, and escalates to a human when needed. ~1 s median time-to-first-token. Tech Sphere Challenge 2026. | `FastAPI` · `LangGraph` · `RAG` · `ElevenLabs` · `MLflow` |
+| **[Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn)** | Credit-risk scorecard that classifies clients by their probability of default using deep learning. | `Python` · `TensorFlow` · `scikit-learn` |
+| **[MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview)** | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep CNNs (ResNet / VGG). Kaggle competition. | `Python` · `Deep Learning` · `CNNs` |
+| **[RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)** | Predictive analytics over 3 years of sales & inventory data with temporal validation — lifted Sell-In R² from −0.51 (naive baseline) to +0.18 — plus an [interactive dashboard](https://giovacode1.github.io/Dataholics). SIC 2026. | `Python` · `pandas` · `Power BI` |
 | **[Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-)** | Hybrid destination recommender with a demand-forecasting module (Facebook Prophet) for the tourism sector. | `Python` · `Prophet` · `scikit-learn` |
-| **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** | Conversational assistant that checks water-service interruptions in Medellín. | `Python` · `Jupyter` |
+| **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** | RAG assistant that checks water-service interruptions in Medellín via web scraping and answers with citations to official documents. | `LangChain` · `FAISS` · `Selenium` · `FastAPI` |
 
 ### More Projects
 
 - **[Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector)** — Progressive web app running COCO computer-vision inference on a phone camera, no install. `JavaScript` · `Vercel` · `Roboflow`
-- **[OOP — UNAL](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)** — Object-oriented programming coursework at Universidad Nacional de Colombia. `Python`
+
+---
+
+## 📚 Continuous Learning
+
+- **[GCI World 2026 — Data Science Program](https://github.com/NatoRemolina/GCI-World-Data-Science-2026)** · Matsuo-Iwasawa Lab, The University of Tokyo — NumPy, pandas, visualization and supervised ML, with documented homework and CI.
+- **Machine Learning Diploma** · Universidad de Antioquia
+- **Advanced Machine Learning Diploma — NLP track**
+- **[Object-Oriented Programming](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)** · Universidad Nacional de Colombia — classes, encapsulation, inheritance and Tkinter GUIs, with LaTeX reports.
 
 ---
 
