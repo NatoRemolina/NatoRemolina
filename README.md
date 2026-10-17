@@ -146,7 +146,7 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 - Technologist in Project Management, SENA (completed)
 - [8th Colombian HPC Summer School](https://cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardees), CyberColombia scholarship recipient (2025)
 - Introduction to Quantum Computing, Google Quantum AI scholarship (2024 to 2025)
-- Global Consumer Intelligence, Data Science Program, The University of Tokyo (2025)
+- [GCI World, Data Science Program](https://github.com/NatoRemolina/GCI-World-Data-Science-2026), Matsuo-Iwasawa Lab, The University of Tokyo (September 2026, in progress)
 - [Applications of AI for Anomaly Detection](https://github.com/NatoRemolina/Applications-of-AI-for-Anomaly-Detection), NVIDIA Deep Learning Institute (2026)
 
 ## Awards and service
