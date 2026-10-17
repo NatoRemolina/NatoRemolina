@@ -1,8 +1,9 @@
 # Natalia Remolina
 
-AI and data engineer at Lambda Analytics and Engineering Physics student at Universidad Nacional de
-Colombia (Medellín). I build and operate AI systems in production, and my research interests are
-quantum computing and high-performance computing applied to AI.
+AI and data engineer and Engineering Physics student at Universidad Nacional de Colombia (Medellín).
+I build and operate AI systems in production. My goal is to move toward physical AI and robotics:
+training agents in simulation with NVIDIA Isaac Lab, reinforcement learning and computer vision. I am
+also interested in high-performance computing and quantum computing applied to AI.
 
 [LinkedIn](https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/) · nremolina@unal.edu.co
 
@@ -21,19 +22,25 @@ taught me to start from the problem and to report results with numbers I can def
 
 ## Research interests
 
+- **Physical AI and robotics.** This is where I want to focus next: robot learning in simulation
+  with NVIDIA Isaac Sim and Isaac Lab, reinforcement learning for control, and computer vision for
+  perception, with the long-term question of how policies trained in simulation transfer to real
+  robots. My starting point is applied computer vision (YOLO in a production agent, CNNs for image
+  classification, real-time object detection); reinforcement learning and Isaac Lab are what I am
+  learning now.
 - **Quantum computing and quantum machine learning.** I completed Introduction to Quantum Computing
   (The Coding School, Google Quantum AI scholarship), I am a member of the QUANTA Research and SIMG
   groups at UNAL, and I am a student volunteer at IEEE Quantum Week 2026 (QCE26). I am interested
   in how quantum ML methods compare with strong classical baselines.
 - **High-performance computing for AI.** I was a fellow at the 8th Colombian HPC Summer School
   (CyberColombia and EAFIT). I want to strengthen my work on distributed training, GPU acceleration
-  and large-scale evaluation.
+  and large-scale evaluation, which is also what parallel robot simulation needs.
 - **Reliable evaluation of LLM systems.** This is where I have the most hands-on experience: shadow
   mode, non-regression tests and metrics measured on live systems.
 
 ## Experience
 
-**AI & Data Engineer, Lambda Analytics** (Jan 2026 to present)
+**AI & Data Engineer, AI and data consultancy, Medellín** (Jan 2026 to present)
 - Four production agents (FastAPI, LangGraph, ElevenLabs) integrated with WhatsApp, Twilio, n8n and webhooks.
 - Architecture of a property inventory agent, now in pilot with a real estate client (about 40 inventories a month).
 - Data pipelines with PySpark on Databricks and Delta Lake; models served on Vertex AI; Docker deployments on AWS and GCP.
@@ -54,7 +61,7 @@ USD 0.0065 per call. During the challenge the instance went down when the trace 
 memory; I traced it with `journalctl` and fixed it with swap and a `MemoryMax` limit on the service.
 The full write-up is in the [final report](https://github.com/NatoRemolina/postop-voice-agent).
 
-At Lambda Analytics I deploy services with Docker on AWS and GCP, and I use Vertex AI and BigQuery
+In my current role I deploy services with Docker on AWS and GCP, and I use Vertex AI and BigQuery
 for model serving and data.
 
 ## Case study: property inventory agent
@@ -113,7 +120,9 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 - **Machine learning:** PyTorch, scikit-learn, TensorFlow, MLflow, Airflow
 - **LLM systems:** LangGraph, LangSmith, RAG (ChromaDB, FAISS, BM25), Gemini, Llama, OpenAI
 - **Cloud and deployment:** AWS (EC2, systemd, HTTPS), GCP (Vertex AI), Azure, Docker, Linux
+- **Computer vision:** YOLO, CNNs (ResNet, VGG), Roboflow
 - **Integrations:** FastAPI, Twilio, WhatsApp, Telegram, ElevenLabs, n8n
+- **Currently learning:** NVIDIA Isaac Sim and Isaac Lab, reinforcement learning (PPO and related methods)
 
 ## Education and training
 
@@ -135,4 +144,4 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 ---
 
 Open to AI Engineer, ML Engineer (MLOps) and Data Engineer roles, and to research opportunities in
-quantum AI and HPC.
+physical AI and robotics, HPC and quantum AI.
