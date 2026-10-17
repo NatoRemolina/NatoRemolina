@@ -1,132 +1,174 @@
 <h1 align="center">Hi, I'm Natalia Remolina 👋</h1>
-<h3 align="center">Junior AI Engineer · Building & deploying end-to-end AI agents</h3>
-<p align="center">Physics Engineering · Universidad Nacional de Colombia</p>
+<h3 align="center">AI & Data Engineer · Production AI agents, RAG and data pipelines</h3>
+<p align="center">Lambda Analytics · Engineering Physics at Universidad Nacional de Colombia · Medellín</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:nremolina@unal.edu.co"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/NatoRemolina"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 </p>
 
 ---
 
-## 🔬 Overview
+## ⚡ At a glance
 
-I work across the whole AI and data stack, but the core of what I do is building and
-shipping production AI agents. That means Python and FastAPI on the backend, with LLM
-orchestration, RAG, and n8n holding the pipelines together. The rest of my projects branch
-out from there: neural networks for credit-risk scoring, CNNs that classify images, sales
-and demand forecasting with Ridge and Prophet, real-time object detection, and conversational
-assistants for customer service.
-
-Alongside the engineering, I research machine learning and quantum computing with the QUANTA
-and SIMG groups at Universidad Nacional de Colombia, and this year I'm joining IEEE Quantum
-Week 2026 as a student volunteer. The projects and achievements below are where all of this
-comes together.
+- 🤖 **4 AI agents in production for 4 clients**: 1,000+ messages and ~100 voice calls a month (Lambda Analytics).
+- 🎯 **84/95 vs. 69/95**: intent accuracy of my classifier vs. the previous rules, at **262 ms** median latency, validated in shadow mode.
+- 🥉 **3rd place nationally**: Samsung Innovation Campus 2026 hackathon (RetailMind).
+- 🏅 **Outstanding Performance Award**: Samsung Innovation Campus 2026.
+- 🟢 **NVIDIA DLI**: Applications of AI for Anomaly Detection (Oct 2026).
 
 ---
 
-## 👩‍🔬 About Me
+## 👩‍🔬 About me
 
-Junior AI Engineer designing and deploying **end-to-end AI agents**, workflow automation, and data analysis. Physics Engineering student at **Universidad Nacional de Colombia**, with a strong foundation in mathematical, logical, and computational thinking.
+I build AI systems that reach production and stay there. My core work is conversational and voice
+agents: I gather requirements with the client, design the knowledge base and the guardrails, ship
+with FastAPI, LangGraph and Docker, and measure quality with MLflow and LangSmith. On the data side
+I work with PySpark and SQL on Databricks and Delta Lake.
 
-- 🤖 I build production-grade AI agents with **Python** and **FastAPI** — owning the full lifecycle, from client requirements to **LLM orchestration** and **RAG** pipelines.
-- 🔗 I integrate REST APIs and communication platforms like **Twilio** / **WhatsApp**, and ship automated workflows with **n8n** and webhooks.
-- 🧪 Active member of the **QUANTA** and **SIMG** research groups at UNAL — machine learning, generative AI, quantum algorithms, and optimization.
-- 💼 Previously **Analyst / Product Owner at AIMEDIC** — process discovery, technical requirements, and BI dashboards driving data-driven decisions.
-- 🎯 Growing as a Junior AI Engineer in teams that build, scale, and improve production AI systems.
+Before engineering, I was a Product Owner and a field data analyst, and I hold a technologist degree
+in Project Management. That background is why I start from the business problem, not from the model.
+I also research machine learning and quantum computing with the **QUANTA** and **SIMG** groups at
+UNAL, and I'm a student volunteer at **IEEE Quantum Week 2026**.
 
 ---
 
-## 👩‍💻 Tech Stack
+## 💼 Experience
 
-**Languages**
+**AI & Data Engineer · [Lambda Analytics](https://github.com/LambdaAnalyticsSAS)** · Jan 2026 - present
+- Built and maintain 4 production agents (WhatsApp, Twilio, voice with ElevenLabs) for 4 clients.
+- Led the architecture of a property inventory agent, now in pilot with a real estate client (~40 inventories a month). See the case study below.
+- Knowledge pipelines into ChromaDB with hybrid indexing and incremental updates; batch pipelines with PySpark on Databricks and Delta Lake; models served on Vertex AI; Docker deploys on AWS and GCP.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+**Analyst / Product Owner · AIMEDIC** · Nov 2024 - Nov 2025
+- Turned business needs into a prioritized backlog under Scrum; built 10 Power BI and Tableau dashboards used by senior management.
 
-**AI / ML**
+**Field Surveyor & Data Analyst · Municipality of Yopal** · 2017 - 2021
+- Collected and validated SISBEN and OSIGD survey data; regression analysis for territorial projects.
 
+---
+
+## 🏗️ Case study: property inventory agent (client work, code is private)
+
+A Telegram agent that guides a real estate agent through a property visit and builds the inventory
+record (PostgreSQL + PDF) from text, audio, photos and video. The key design decision: **no model
+writes to the record directly**. Every action goes through a harness written in code.
+
+```mermaid
+flowchart LR
+    U[Agent on Telegram<br/>text, audio, photos, video] --> P[Perception<br/>Gemini + YOLO on photos]
+    P --> J[Jev<br/>lightweight intent classifier]
+    J -. rare cases .-> L[gpt-5.5 fallback]
+    J --> H[Harness<br/>function registry, preconditions,<br/>single-use approvals, invariants]
+    L --> H
+    H --> D[(PostgreSQL)]
+    D --> R[Inventory PDF]
+```
+
+- Every change runs first in **shadow mode** with non-regression tests.
+- On 95 new phrases, Jev got **84 right vs. 69** for the previous rules, with **no false "yes"**, **262 ms** median latency and an estimated **~US$0.0035 per inventory**.
+- I led the architecture, the WhatsApp-to-Telegram migration and the phased roadmap.
+
+---
+
+## 📂 Featured projects
+
+| Project | What it does | Result | Stack |
+|---------|--------------|--------|-------|
+| **[VALAI: post-op voice agent](https://github.com/NatoRemolina/postop-voice-agent)** | Spanish voice agent that calls post-surgery patients, grounds every clinical answer in real guidelines with source and page citations, and escalates to a human. Tech Sphere Challenge 2026. | MVP deployed on AWS · **~1 s** median time to first token (P50 992 ms) | `FastAPI` `LangGraph` `Hybrid RAG` `ElevenLabs` `MLflow` |
+| **[RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)** | Weekly sales and inventory forecasting for 85 customers over 156 weeks (~9M units), with leakage-free features and an [interactive dashboard](https://giovacode1.github.io/Dataholics). My part: data cleaning and model training. | **3rd place nationally** · sales MAE 12.94 → **11.76**, R² 0.06 → **0.47** | `Python` `pandas` `scikit-learn` `Power BI` |
+| **[Credit Risk](https://github.com/Team5RNABI/credit-risk-ml-nn)** | Interpretable scorecard vs. a neural network for probability of default, with Optuna, early stopping and imbalanced-class metrics. | Scorecard won on test: **ROC-AUC 0.79** | `PyTorch` `scikit-learn` `Optuna` |
+| **[Educational Analytics](https://github.com/Capstone-Tech-Tailors/Analitica-Educativa)** | Teacher SWOT analyses from a fine-tuned sentiment model, plus dropout and turnover models. Universidad del Rosario capstone. | Deployed on Azure Container Apps | `FastAPI` `NLP` `Azure` `Power BI` |
+| **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** | RAG assistant that checks water-service outages in Medellín via web scraping and answers with citations to official documents. | | `LangChain` `FAISS` `Selenium` `FastAPI` |
+| **[Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-)** | Hybrid destination recommender with a demand-forecasting module. | | `Prophet` `scikit-learn` |
+
+### More projects
+
+- **[Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector)**: PWA that runs COCO computer-vision inference from a phone camera, no install. `JavaScript` `Vercel` `Roboflow`
+- **[MeIA 2025, Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview)**: CNN image classification (ResNet, VGG) of sargassum levels on Caribbean beaches. Kaggle.
+- **Sentiment Analysis of Economic News**: 7,125 Spanish financial texts, TF-IDF + logistic regression, macro-F1 up to 0.70. Course repo, private until the program ends.
+
+---
+
+## 🛠️ Tech stack
+
+**AI & agents**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![LangSmith](https://img.shields.io/badge/LangSmith-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![RAG](https://img.shields.io/badge/Hybrid%20RAG-10A37F?style=flat)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai&logoColor=white)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat&logo=elevenlabs&logoColor=white)
+
+**Machine learning & MLOps**
+
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![Prophet](https://img.shields.io/badge/Prophet-1F77B4?style=flat)
-![LLM Orchestration](https://img.shields.io/badge/LLM%20Orchestration-6E40C9?style=flat)
-![RAG](https://img.shields.io/badge/RAG-10A37F?style=flat)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-8A2BE2?style=flat)
+![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat&logo=apacheairflow&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat)
 
-**Backend & Automation**
+**Data**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat&logo=apachespark&logoColor=white)
+![Databricks](https://img.shields.io/badge/Databricks-FF3621?style=flat&logo=databricks&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Delta%20Lake-00ADD4?style=flat)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat&logo=googlebigquery&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
+
+**Backend, cloud & automation**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat&logo=n8n&logoColor=white)
 ![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=flat&logo=twilio&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat)
-![Webhooks](https://img.shields.io/badge/Webhooks-3B82F6?style=flat&logo=webhooks&logoColor=white)
+![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
 
-**Data & Visualization**
+**BI**
 
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat&logo=tableau&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
-
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat&logo=elevenlabs&logoColor=white)
-![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white)
-![Roboflow](https://img.shields.io/badge/Roboflow-6706CE?style=flat&logo=roboflow&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat)
 
 ---
 
-## 📂 Featured Projects
+## 📚 Currently learning (until Dec 2026)
 
-| Project | What it does | Stack |
-|---------|--------------|-------|
-| **[VALAI — Post-Op Voice Agent](https://github.com/NatoRemolina/postop-voice-agent)** | Spanish-speaking voice agent that calls post-surgery patients, grounds every clinical answer in real guidelines with source and page citations, and escalates to a human when needed. ~1 s median time-to-first-token. Tech Sphere Challenge 2026. | `FastAPI` · `LangGraph` · `RAG` · `ElevenLabs` · `MLflow` |
-| **[Credit Risk — ML & Neural Networks](https://github.com/Team5RNABI/credit-risk-ml-nn)** | Credit-risk scorecard that classifies clients by their probability of default using deep learning. | `Python` · `TensorFlow` · `scikit-learn` |
-| **[MeIA 2025 — Sargassum Prediction](https://www.kaggle.com/competitions/meia-2025-sargazo-prediction/overview)** | Image-classification model that estimates sargassum levels on Mexican Caribbean beaches from photos, using deep CNNs (ResNet / VGG). Kaggle competition. | `Python` · `Deep Learning` · `CNNs` |
-| **[RetailMind](https://github.com/NatoRemolina/Dataholics-Samsung-Innovation-Campus-2026)** | Predictive analytics over 3 years of sales & inventory data with temporal validation — lifted Sell-In R² from −0.51 (naive baseline) to +0.18 — plus an [interactive dashboard](https://giovacode1.github.io/Dataholics). SIC 2026. | `Python` · `pandas` · `Power BI` |
-| **[Tourism Recommender](https://github.com/Team5RNABI/timeseries-vision-recommender-)** | Hybrid destination recommender with a demand-forecasting module (Facebook Prophet) for the tourism sector. | `Python` · `Prophet` · `scikit-learn` |
-| **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** | RAG assistant that checks water-service interruptions in Medellín via web scraping and answers with citations to official documents. | `LangChain` · `FAISS` · `Selenium` · `FastAPI` |
-
-### More Projects
-
-- **[Real-Time Object Detection](https://github.com/NatoRemolina/roboflow-detector)** — Progressive web app running COCO computer-vision inference on a phone camera, no install. `JavaScript` · `Vercel` · `Roboflow`
-
----
-
-## 📚 Continuous Learning
-
-- **[GCI World 2026 — Data Science Program](https://github.com/NatoRemolina/GCI-World-Data-Science-2026)** · Matsuo-Iwasawa Lab, The University of Tokyo — NumPy, pandas, visualization and supervised ML, with documented homework and CI.
-- **Machine Learning Diploma** · Universidad de Antioquia
-- **Advanced Machine Learning Diploma — NLP track**
-- **[Object-Oriented Programming](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)** · Universidad Nacional de Colombia — classes, encapsulation, inheritance and Tkinter GUIs, with LaTeX reports.
+- **Advanced Machine Learning & Data Science Diploma** · Universidad Nacional de Colombia (192 h: NLP, deep learning, agile ML).
+- **Machine Learning Diploma** · Universidad de Antioquia (90 h: deep neural networks, CNNs, RNNs).
+- **GCI World 2026, Data Science Program** · Matsuo-Iwasawa Lab, The University of Tokyo.
+- **[Object-Oriented Programming](https://github.com/NatoRemolina/UNAL-Programacion-Orientada-a-Objetos)** · Universidad Nacional de Colombia.
 
 ---
 
 ## 🏆 Achievements
 
-- 🌐 **Student Volunteer** — IEEE Quantum Week 2026 (QCE26), Toronto, Canada
-- 🚀 **Georgia Tech CREATE-X — Medellín, Cohort 3** — Completed the Enterprise Innovation Institute's entrepreneurship & innovation capacity-building program (Aug–Oct 2024).
-- 🎓 **Scholarship** — Introduction to Quantum Computing (The Coding School / Google Quantum AI via Frontier Tech)
-- 🎓 **Scholarship** — Advanced Data Analysis Diploma (TalentoTech — MinTIC / UdeA)
-- 🧠 **AI Macro-training** — MeIA 2025
-- 🎓 **[Scholarship (CyberColombia)](https://www.cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardeesrtir)** — 8th Colombian HPC Summer School
+- 🥉 **3rd place nationally**, Samsung Innovation Campus 2026 hackathon (team Dataholics).
+- 🏅 **Outstanding Performance Award**, Samsung Innovation Campus 2026 (Samsung Electronics Colombia & Universidad del Rosario).
+- 🟢 **NVIDIA Deep Learning Institute**, Certificate of Competency: Applications of AI for Anomaly Detection (2026).
+- 🌐 **Student Volunteer**, IEEE Quantum Week 2026 (QCE26), Toronto.
+- 🎓 **[Scholarship, 8th Colombian HPC Summer School](https://www.cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardeesrtir)** (CyberColombia).
+- 🎓 **Scholarship**, Introduction to Quantum Computing (The Coding School / Google Quantum AI).
+- 🎓 **Scholarship**, Advanced Data Analysis Diploma (Talento Tech, MinTIC / UdeA).
+- 🚀 **Georgia Tech CREATE-X**, Medellín Cohort 3 (2024).
+- 🧠 **MeIA 2025**, AI macro-training (UNAM).
 
 ---
 
-## 🎯 Goal
+## 🎯 What I'm looking for
 
-> Grow as a **Junior AI Engineer** in teams that **build, scale, and improve production AI systems.**
-
----
+> **AI Engineer, ML Engineer (MLOps) or Data Engineer** roles in teams that build, scale and improve AI systems in production.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/natalia-patricia-remolina-rodriguez-1327a8220/">LinkedIn</a> ·
-  <a href="mailto:nremolina@unal.edu.co">Email</a> ·
-  <a href="https://github.com/NatoRemolina">GitHub</a>
+  <a href="mailto:nremolina@unal.edu.co">nremolina@unal.edu.co</a>
 </p>
