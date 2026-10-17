@@ -49,7 +49,7 @@ taught me to start from the problem and to report results with numbers I can def
 - Architecture of a property inventory agent for a real estate client. The client closed the project in October 2026; I continue the harness work as independent research.
 - Data pipelines with PySpark on Databricks and Delta Lake; models served on Vertex AI; Docker deployments on AWS and GCP.
 
-**Research Assistant, [Kat Quantum](https://katquantum.lovable.app/team)** (present)
+**Research Assistant, [Kat Quantum](https://katquantum.lovable.app/team)** (2024 to present)
 - Experiments and data pipelines for quantum computing and AI research.
 - Co-organizer of the [Qiskit Fall Fest 2026](https://katquantum.lovable.app/fall-fest) (IBM Quantum, November 3 to 5, 2026, virtual), hosted by Universidad Nacional de Colombia and Kat Quantum.
 
@@ -118,8 +118,8 @@ team of three). My part was the sentiment model: RoBERTuito fine-tuned on human 
 Container Apps.
 
 **[Credit Risk](https://github.com/Team5RNABI/credit-risk-ml-nn)** (2025, team). Logistic-regression
-scorecard against a PyTorch network for probability of default. The interpretable model was better
-on test (ROC-AUC 0.79).
+scorecard against a PyTorch network for probability of default. My part was the network and its
+metrics; the interpretable model was better on test (ROC-AUC 0.79).
 
 **[EPM Conversational Agent](https://github.com/NatoRemolina/Agente-Conversacional-EPM)** (2025).
 RAG assistant that checks water-service outages in Medellín and cites the official documents.
@@ -140,7 +140,7 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 
 ## Education and training
 
-- Engineering Physics, Universidad Nacional de Colombia (in progress)
+- Engineering Physics, Universidad Nacional de Colombia (in progress; junior researcher in the QUANTA Research and SIMG groups since 2024)
 - Advanced Machine Learning and Data Science Diploma, Universidad Nacional de Colombia (until Dec 2026)
 - Machine Learning Diploma, Universidad de Antioquia (until Dec 2026)
 - Technologist in Project Management, SENA (completed)
