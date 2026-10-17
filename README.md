@@ -25,7 +25,7 @@ taught me to start from the problem and to report results with numbers I can def
 - **Physical AI and robotics.** This is where I want to focus next: robot learning in simulation
   with NVIDIA Isaac Sim and Isaac Lab, reinforcement learning for control, and computer vision for
   perception, with the long-term question of how policies trained in simulation transfer to real
-  robots. My starting point is applied computer vision (YOLO in a production agent, CNNs for image
+  robots. My starting point is applied computer vision (YOLO in an inventory agent, CNNs for image
   classification, real-time object detection); reinforcement learning and Isaac Lab are what I am
   learning now.
 - **Quantum computing and quantum machine learning.** I am a junior researcher in the QUANTA
