@@ -32,8 +32,8 @@ taught me to start from the problem and to report results with numbers I can def
   (The Coding School, Google Quantum AI scholarship), I am a junior researcher in the QUANTA Research and SIMG
   groups at UNAL, and I am a student volunteer at IEEE Quantum Week 2026 (QCE26). I am interested
   in how quantum ML methods compare with strong classical baselines.
-- **High-performance computing for AI.** I was a fellow at the 8th Colombian HPC Summer School
-  (CyberColombia and EAFIT). I want to strengthen my work on distributed training, GPU acceleration
+- **High-performance computing for AI.** I received a CyberColombia scholarship for the
+  [8th Colombian HPC Summer School](https://cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardees) (June 2025). I want to strengthen my work on distributed training, GPU acceleration
   and large-scale evaluation, which is also what parallel robot simulation needs.
 - **Reliable evaluation of LLM systems.** This is where I have the most hands-on experience: shadow
   mode, non-regression tests and metrics measured on live systems.
@@ -130,7 +130,7 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 - Advanced Machine Learning and Data Science Diploma, Universidad Nacional de Colombia (until Dec 2026)
 - Machine Learning Diploma, Universidad de Antioquia (until Dec 2026)
 - Technologist in Project Management, SENA (completed)
-- 8th Colombian HPC Summer School, fellow (2025)
+- [8th Colombian HPC Summer School](https://cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardees), CyberColombia scholarship recipient (2025)
 - Introduction to Quantum Computing, Google Quantum AI scholarship (2024 to 2025)
 - Global Consumer Intelligence, Data Science Program, The University of Tokyo (2025)
 - Applications of AI for Anomaly Detection, NVIDIA Deep Learning Institute (2026)
