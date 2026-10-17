@@ -29,7 +29,7 @@ taught me to start from the problem and to report results with numbers I can def
   classification, real-time object detection); reinforcement learning and Isaac Lab are what I am
   learning now.
 - **Quantum computing and quantum machine learning.** I completed Introduction to Quantum Computing
-  (The Coding School, Google Quantum AI scholarship), I am a member of the QUANTA Research and SIMG
+  (The Coding School, Google Quantum AI scholarship), I am a junior researcher in the QUANTA Research and SIMG
   groups at UNAL, and I am a student volunteer at IEEE Quantum Week 2026 (QCE26). I am interested
   in how quantum ML methods compare with strong classical baselines.
 - **High-performance computing for AI.** I was a fellow at the 8th Colombian HPC Summer School
