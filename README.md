@@ -28,10 +28,14 @@ taught me to start from the problem and to report results with numbers I can def
   robots. My starting point is applied computer vision (YOLO in a production agent, CNNs for image
   classification, real-time object detection); reinforcement learning and Isaac Lab are what I am
   learning now.
-- **Quantum computing and quantum machine learning.** I completed Introduction to Quantum Computing
-  (The Coding School, Google Quantum AI scholarship), I am a junior researcher in the QUANTA Research and SIMG
-  groups at UNAL, and I am a student volunteer at IEEE Quantum Week 2026 (QCE26). I am interested
-  in how quantum ML methods compare with strong classical baselines.
+- **Quantum computing and quantum machine learning.** I am a junior researcher in the QUANTA
+  Research and SIMG groups at UNAL and a research assistant at
+  [Kat Quantum](https://katquantum.lovable.app/team), where I work on experiments and data
+  pipelines. I am co-organizing the [Qiskit Fall Fest 2026](https://katquantum.lovable.app/fall-fest),
+  an official IBM Quantum event hosted by UNAL and Kat Quantum. I completed Introduction to Quantum
+  Computing (The Coding School, Google Quantum AI scholarship) and I am a student volunteer at IEEE
+  Quantum Week 2026 (QCE26). I am interested in how quantum ML methods compare with strong classical
+  baselines.
 - **High-performance computing for AI.** I received a CyberColombia scholarship for the
   [8th Colombian HPC Summer School](https://cybercolombia.org/summer_school_8/#cybercolombia-scholarship-awardees) (June 2025). I want to strengthen my work on distributed training, GPU acceleration
   and large-scale evaluation, which is also what parallel robot simulation needs.
@@ -44,6 +48,10 @@ taught me to start from the problem and to report results with numbers I can def
 - Four production agents (FastAPI, LangGraph, ElevenLabs) integrated with WhatsApp, Twilio, n8n and webhooks.
 - Architecture of a property inventory agent, now in pilot with a real estate client (about 40 inventories a month).
 - Data pipelines with PySpark on Databricks and Delta Lake; models served on Vertex AI; Docker deployments on AWS and GCP.
+
+**Research Assistant, [Kat Quantum](https://katquantum.lovable.app/team)** (present)
+- Experiments and data pipelines for quantum computing and AI research.
+- Co-organizer of the [Qiskit Fall Fest 2026](https://katquantum.lovable.app/fall-fest) (IBM Quantum, November 3 to 5, 2026, virtual), hosted by Universidad Nacional de Colombia and Kat Quantum.
 
 **Analyst / Product Owner, AIMEDIC** (Nov 2024 to Nov 2025)
 - Requirements for a 50-person team under Scrum and 10 Power BI and Tableau dashboards for senior management.
@@ -135,10 +143,11 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 - Global Consumer Intelligence, Data Science Program, The University of Tokyo (2025)
 - Applications of AI for Anomaly Detection, NVIDIA Deep Learning Institute (2026)
 
-## Awards
+## Awards and service
 
 - Third place nationally, Samsung Innovation Campus hackathon (2026)
 - Outstanding Performance Award, Samsung Innovation Campus (2026)
+- Co-organizer, [Qiskit Fall Fest 2026](https://katquantum.lovable.app/fall-fest), Universidad Nacional de Colombia and Kat Quantum
 - Student Volunteer, IEEE Quantum Week 2026, Toronto
 
 ---
