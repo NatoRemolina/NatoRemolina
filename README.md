@@ -75,14 +75,16 @@ for model serving and data.
 ## Case study: property inventory agent
 
 Client work, so the code is private. A field agent uses it on Telegram during a property visit, and
-it builds the inventory record in PostgreSQL and PDF from text, audio, photos and video. The main
-design decision is that no model writes to the record directly: every action passes through a harness
-written in code.
+it builds the inventory record in PostgreSQL and PDF from text, audio, photos and video. I designed
+the harness around it, working AI-first: I set the architecture, the rules and the evaluations, and
+directed AI coding agents (Claude Code) to implement them. The main design decision is that code owns
+the flow and no model writes to the record directly. A third-party typed classifier returns small
+judgments with thresholds and abstention, and the generative model is the exception.
 
 ```mermaid
 flowchart LR
     U[Field agent on Telegram<br/>text, audio, photos, video] --> P[Perception<br/>Gemini + YOLO on photos]
-    P --> J[Jev<br/>lightweight intent classifier]
+    P --> J[Typed classifier<br/>judgments with abstention]
     J -. rare cases .-> L[LLM fallback]
     J --> H[Harness<br/>function registry, preconditions,<br/>single-use approvals, invariants]
     L --> H
@@ -90,9 +92,12 @@ flowchart LR
     D --> R[Inventory PDF]
 ```
 
-Every change runs first in shadow mode with non-regression tests. On 95 new phrases the classifier
-got 84 right, against 69 for the previous rule-based version, with no false confirmations, a median
-latency of 262 ms and an estimated cost of about USD 0.0035 per inventory.
+Results so far come from the lab, with a simulated field agent; a field test is the next step.
+Across 32 simulated inventories, the harness made 0 model calls per turn against 1.46 for the original
+bot, cut median latency from 3.9 s to about 10 ms, and recorded 0 invariant violations against 4. On a
+held-out set of 95 phrases the classifier got 84 right, against 69 for the previous rules. A change is
+adopted only if hits go up without errors going up; one matcher that added 15 hits and 1 error was
+rejected on that rule.
 
 ## Selected projects
 
