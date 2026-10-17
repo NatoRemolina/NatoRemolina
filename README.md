@@ -46,7 +46,7 @@ taught me to start from the problem and to report results with numbers I can def
 
 **AI & Data Engineer, AI and data consultancy, Medellín** (Jan 2026 to present)
 - Four production agents (FastAPI, LangGraph, ElevenLabs) integrated with WhatsApp, Twilio, n8n and webhooks.
-- Architecture of a property inventory agent, now in pilot with a real estate client (about 40 inventories a month).
+- Architecture of a property inventory agent for a real estate client. The client closed the project in October 2026; I continue the harness work as independent research.
 - Data pipelines with PySpark on Databricks and Delta Lake; models served on Vertex AI; Docker deployments on AWS and GCP.
 
 **Research Assistant, [Kat Quantum](https://katquantum.lovable.app/team)** (present)
@@ -92,7 +92,7 @@ flowchart LR
     D --> R[Inventory PDF]
 ```
 
-Results so far come from the lab, with a simulated field agent; a field test is the next step.
+All results come from the lab, with a simulated field agent; the client project closed before a field test, and I continue the work locally as research.
 Across 32 simulated inventories, the harness made 0 model calls per turn against 1.46 for the original
 bot, cut median latency from 3.9 s to about 10 ms, and recorded 0 invariant violations against 4. On a
 held-out set of 95 phrases the classifier got 84 right, against 69 for the previous rules. A change is
