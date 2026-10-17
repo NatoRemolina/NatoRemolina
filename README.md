@@ -126,6 +126,7 @@ web app that runs object detection from a phone camera, deployed on Vercel.
 
 - **Languages and data:** Python, SQL, PySpark, Databricks, Delta Lake, PostgreSQL, BigQuery, pandas
 - **Machine learning:** PyTorch, scikit-learn, TensorFlow, MLflow, Airflow
+- **Statistics:** probability and distributions, hypothesis testing (McNemar, Kruskal-Wallis), regression, cross-validation and temporal validation; R and Python (statistics coursework at UNAL)
 - **LLM systems:** LangGraph, LangSmith, RAG (ChromaDB, FAISS, BM25), Gemini, Llama, OpenAI
 - **Cloud and deployment:** AWS (EC2, systemd, HTTPS), GCP (Vertex AI), Azure, Docker, Linux
 - **Computer vision:** YOLO, CNNs (ResNet, VGG), Roboflow
